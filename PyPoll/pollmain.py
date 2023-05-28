@@ -66,7 +66,7 @@ else:
  
 #Printing to Electionanalysis.txt
     L= ["Election Results\n", ".........................................\n","Total Votes: 369711\n","Charles Casper Stockam: 23.049 (85213)\n","Diana Degette: 73.812 (272892)\n","Raymon Anthony Doane: 3.139  (11606)\n","Winner: Diana Degette\n"]
-    with open("electionanalysis.txt", "w") as file:
+    with open("Electionanalysis.txt", "w") as file:
         file.writelines(L)
         file.close
     
